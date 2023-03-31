@@ -1,0 +1,31 @@
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+}
+
+.form-input {
+  flex-grow: 1;
+  outline: none;
+  height: 2rem;
+}
+
+.is-invalid {
+  border: 1px solid #F005;
+  background-color: #F005;
+}
+
+.center {
+  align-self: center;
+}
+
+.button-box {
+  display: flex;
+  justify-content: right;
+}
